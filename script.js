@@ -1,3 +1,13 @@
+/*Задание 1*/
+let name = prompt("Как вас зовут?");
+let age = prompt("Сколько вам лет?");
+let city = prompt("Откуда вы?");
+let phone = prompt("Ваш номер телефона?");
+let post = prompt("Ваша почта?");
+let company = prompt("Где вы работаете?");
+
+console.log(((("Меня зовут\u00A0") + name)), (("\u00A0.Мне\u00A0") + age + ("\u00A0лет.\u00A0")), (("Я проживаю в городе\u00A0") + city + ("\u00A0и работаю в компании\u00A0") + company), ((".\u00A0Мои контактные данные:\u00A0") + phone +("\u00A0") + post));
+
 
 /*Задание 3*/
 let numStr = '123123';
@@ -11,7 +21,7 @@ console.log(sum1 == sum2 ? "Yes" : "No");
 
 let day = 30;
 
-let result="";
+/*let result="";*/
 
 /*if (day > 0 && day <= 10){
     result="Первая декада";
