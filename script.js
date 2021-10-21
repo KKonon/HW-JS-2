@@ -1,4 +1,5 @@
 /*Задание 1*/
+
 let name = prompt("Как вас зовут?");
 let age = prompt("Сколько вам лет?");
 let city = prompt("Откуда вы?");
@@ -8,6 +9,7 @@ let company = prompt("Где вы работаете?");
 
 console.log(((("Меня зовут\u00A0") + name)), (("\u00A0.Мне\u00A0") + age + ("\u00A0лет.\u00A0")), (("Я проживаю в городе\u00A0") + city + ("\u00A0и работаю в компании\u00A0") + company), ((".\u00A0Мои контактные данные:\u00A0") + phone +("\u00A0") + post));
 
+console.log("");
 
 /*Задание 2*/
 
@@ -15,12 +17,30 @@ let yeears = 2021 - age;
 alert(name + "\u00A0родился в\u00A0" + yeears + "\u00A0году");
 
 /*Задание 3*/
+
 let numStr = '123123';
 
 let sum1 = +numStr[0] + +numStr[1] + +numStr[2];
 let sum2 = +numStr[3] + +numStr[4] + +numStr[5];
 
 console.log(sum1 == sum2 ? "Yes" : "No");
+
+console.log("");
+
+/*Задание 4*/
+
+let a = prompt("Введите число");
+let n = null;
+
+if (a > n) {
+    result="Верно";
+} else if (a < n){
+    result = "Не верно";
+}
+
+console.log(result);
+
+console.log("");
 
 /* Задание 8*/
 
