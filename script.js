@@ -42,7 +42,19 @@ console.log(result);
 
 console.log("");
 
-/* Задание 8*/
+/*Задание 5*/
+/*let a1 =  10;
+let b1 = 2;
+
+if (a1 & b1){
+    result = a1 + b1;
+} else if (a1 & b1){
+    result = a1 - b1;
+}
+
+console.log(result);*/
+
+/*Задание 8*/
 
 let day = 30;
 
